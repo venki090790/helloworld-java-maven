@@ -37,6 +37,19 @@
 		</plugin>
 	</plugins>
 	</build>
+	
+	<distributionManagement>
+    <repository>
+        <id>sym</id>
+        <name>release softx</name>
+        <url>http://13.235.114.106:8081/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+        <id>sym</id>
+        <name>snapshot softx</name>
+        <url>http://13.235.114.106:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
   
 
 
